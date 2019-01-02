@@ -1,0 +1,165 @@
+.createGardenWrapper{
+  border: 2px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: .5%;
+  justify-content: center;
+  align-content: center;
+  margin-left: 1%;
+  margin-top: .8%;
+  margin-bottom: 1%;
+  background-color: #856245;
+  /* background-image: url('./image/wood.jpg'); */
+  overflow: visible;
+  -webkit-box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
+  
+}
+.titleHeading{
+  margin: 0;
+  padding-top: 0;
+  text-align: center;
+}
+.formWrapper{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  
+}
+.gardenGenerateForm{
+  margin: 0px;
+  display: flex; 
+}
+
+.gardenSizeInput{
+  width: 40px;
+  padding: 2px;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-left: 5px;
+  height: 15px;
+}
+input{
+  padding: 2px;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-left: 5px;
+  height: 15px;
+}
+.gardenFormButtonContainer{
+  display: flex;
+}
+
+button{
+  padding: 2px 5px 4px 5px;
+  border-radius: 5px;
+  font-weight: 700;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  width: 140px;
+  margin-right: 2%;
+  border: 1px solid black;
+}
+button:hover{
+  background-color: #F4F4BA;
+  border: 1px solid black;
+}
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  height: 30px;
+  width: 30px;
+}
+
+.cell{
+  background-image: url(./image/dirt.jpg);
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  border: 1px solid white;
+  height: 100px;
+  width: 100px;
+  margin: 1px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.cellLoaded{
+  background-image: url(./image/dirt.jpg);
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  border: 1px solid white;
+  height: 100px;
+  width: 100px;
+  margin: 1px;
+  color : black;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+}
+
+.gardenBox{
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+.gardenTable{
+  width: 100%;
+  
+}
+.rows{
+  display: flex;
+}
+#gardenbox2{
+  width: auto;
+  display: grid;
+  grid-column-gap: 4px;
+
+}
+.gardenGridWrapper{
+  overflow: visible;
+  margin-top: 7px;
+  margin-left: 1%;
+}
+
+.suggest{
+  font-size: 90%;
+  color: blue;
+  cursor: pointer;
+}
+
+.recommend{
+  background-color: green;
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.recommend:hover{
+  font-weight: bold;
+  cursor: help;
+  font-size: 14px;
+}
+
+.notRecommend{
+  background-color: red;
+  opacity: .8;
+  font-size: 13px;
+  text-align: center
+}
+
+.notRecommend:hover{
+  font-weight: bold;
+  cursor: help;
+  font-size: 14px;
+}
+
+
+
+
+
