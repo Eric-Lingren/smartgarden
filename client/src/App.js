@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Home from './components/Home';
 import Help from './components/Help';
 import Arduino from './components/Arduino';
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
 
 class App extends Component {

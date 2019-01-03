@@ -9,7 +9,7 @@ import {withPlants} from '../context/PlantProvider';
         this.state = {
             plantType: '',
             varitey: '',
-            imageUrl: '',
+            imageUrl: ''
         }
     }
 
@@ -41,7 +41,7 @@ import {withPlants} from '../context/PlantProvider';
         this.setState({
             plantType: '',
             varitey: '',
-            imageUrl: '',
+            imageUrl: ''
         })
     }
 
@@ -55,12 +55,14 @@ import {withPlants} from '../context/PlantProvider';
                                 className='newPlantInput1' 
                                 type='text' 
                                 placeholder='Pumpkin' 
+                                value={this.state.plantType}
                                 onChange={this.handleChange}
                                 required/>
                     Varitey: <input 
                                 name='varitey' 
                                 className='newPlantInput2' 
                                 type='text' 
+                                value={this.state.varitey}
                                 placeholder='Jackolantern' 
                                 onChange={this.handleChange}/><br></br>
                     {/* Plot Color: <input 

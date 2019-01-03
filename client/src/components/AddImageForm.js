@@ -7,7 +7,7 @@ import {withPlants} from '../context/PlantProvider';
     constructor(){
         super()
         this.state = {
-            imageUrl: '',
+            imageUrl: ''
         }
     }
 
@@ -19,9 +19,15 @@ import {withPlants} from '../context/PlantProvider';
     }
 
     handleSubmit = (e) => {
-        console.log(this.state)
+        e.preventDefault()
         axios.post('/images', this.state ).then(res => {
-        //     this.props.getPlants()
+            this.resetForm()
+        })
+    }
+
+    resetForm = () => {
+        this.setState({
+            imageUrl: ''
         })
     }
 
@@ -34,6 +40,7 @@ import {withPlants} from '../context/PlantProvider';
                                 name='imageUrl' 
                                 className='newPlantInput4' 
                                 type='text' 
+                                value={this.state.imageUrl}
                                 placeholder='www.example.com' 
                                 onChange={this.handleChange}/>
                     <button className='addPlantButton' onClick={this.handleSubmit}>Add to Choices</button>
