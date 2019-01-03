@@ -64,3 +64,13 @@
     text-align: center;
     margin: 0;
 }
+.title{
+    font-size: 3em;
+}
+
+@media screen and  (max-width: 800px){
+    .suggestionWrapper{
+        display: flex;
+        flex-direction: column;
+    }
+}
