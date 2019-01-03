@@ -166,7 +166,7 @@ table, th, td {
     margin-left: 0%;
   }
 }
-@media screen and (max-width: 1010px){
+@media screen and (max-width: 1210px){
   .heightWidth{
     display: flex;
   }
@@ -198,9 +198,9 @@ table, th, td {
     margin-top: 10px;
   }
   .heightWidth{
-    margin-left: 1%;
+    margin-left: 2%;
   }
   .nameYear{
-    margin-left: 1%;
+    margin-left: 2%;
   }
 }
