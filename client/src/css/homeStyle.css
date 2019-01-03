@@ -1,12 +1,36 @@
 .pageWrapper{
-    display: flex;
-    
+    display: grid;
+    grid-template-columns: 1fr 4fr;
 }
 .leftColumn{
     display: flex;
-    width: 15%;
-    flex-direction: column;
+    flex-direction: column; 
 }
-.mainColumn{
-    width: 84%;
+
+@media screen and (max-width: 1100px){
+    .pageWrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .leftColumn{
+        display: flex;
+        flex-direction: row; 
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .pageWrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .leftColumn{
+        display: flex;
+        flex-direction: row; 
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
 }
