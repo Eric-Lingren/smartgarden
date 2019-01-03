@@ -162,22 +162,35 @@ table, th, td {
 
 
 
+@media screen and (max-width: 1010px){
+  .heightWidth{
+    display: flex;
+  }
+  .nameYear{
+    display: flex;
+  }
+}
 
 @media screen and (max-width: 900px){
   .formWrapper{
     display: flex;
     flex-direction: column;
-    
+  }
+  .gardenFormButtonContainer{
+    margin-top: 10px;
+  }
+  .gardenGenerateForm{
+    margin-top: 5px;
   }
 }
 
 @media screen and (max-width: 550px){
   .gardenGenerateForm{
+    display: block;
+  }
+  .gardenFormButtonContainer{
     display: flex;
     flex-direction: column;
-    width: 200px;
-  }.gardenFormButtonContainer{
-    display: flex;
-    flex-direction: column;
+    margin-top: 10px;
   }
 }

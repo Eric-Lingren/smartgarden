@@ -122,7 +122,7 @@ class Garden extends Component {
                     <div className='formWrapper'>
                     <h4 className='titleHeading'> Create New Garden: </h4>
                     <form className='gardenGenerateForm' >
-                       
+                       <div className='heightWidth'>
                         Height: <input
                             name='plotHeight'
                             type='number'
@@ -139,6 +139,8 @@ class Garden extends Component {
                             value={this.state.plotWidth}
                             onChange={this.handleChange}
                         />
+                        </div>
+                        <div className='nameYear'>
                         Name:
                             <input
                             name='gardenName'
@@ -158,6 +160,7 @@ class Garden extends Component {
                             onChange={this.handleChange}
                             required
                         />  
+                        </div>
                 </form>
                 <div className='gardenFormButtonContainer'>
                     <button className='createGardenButton' onClick={this.createGarden}>Create Garden</button>
