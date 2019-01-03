@@ -14,3 +14,10 @@
 .image_picker .responsive .thumbnail:hover{
     box-shadow:0 0 4px 4px rgba(0,255,0,.7)
 }
+
+@media screen and (max-width: 500px){
+    .containerWrapper{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
