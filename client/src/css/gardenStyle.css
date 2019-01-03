@@ -197,4 +197,10 @@ table, th, td {
     flex-direction: column;
     margin-top: 10px;
   }
+  .heightWidth{
+    margin-left: 1%;
+  }
+  .nameYear{
+    margin-left: 1%;
+  }
 }
