@@ -163,3 +163,21 @@ table, th, td {
 
 
 
+@media screen and (max-width: 900px){
+  .formWrapper{
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
+
+@media screen and (max-width: 550px){
+  .gardenGenerateForm{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }.gardenFormButtonContainer{
+    display: flex;
+    flex-direction: column;
+  }
+}
