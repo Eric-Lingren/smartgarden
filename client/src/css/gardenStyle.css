@@ -161,7 +161,11 @@ table, th, td {
 
 
 
-
+@media screen and (max-width: 1100px){
+  .createGardenWrapper{
+    margin-left: 0%;
+  }
+}
 @media screen and (max-width: 1010px){
   .heightWidth{
     display: flex;

@@ -29,6 +29,7 @@ const Arduino = () => {
 
                     <div className='arduinoLinkContainer'>
                         <h2 className='checkItOut'>Check it out here:</h2>
+                        <h3>Not Currently Available</h3>
                         <Link className='ArduinoLink' to="/"> GeniusGarden.com </Link>
                     </div>
 
