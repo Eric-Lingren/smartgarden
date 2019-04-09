@@ -1,3 +1,5 @@
+Live site deployed here:  https://smart-garden-planting.herokuapp.com/
+
 SmartGarden is a Full-Stack project built with React, Express, MongoDB, Mongoose, HTML5, CSS, Javascript, and Node.js.
 
 It is intended to provide optimal garden planting recommendations based on companion planting science.  It allows you to simulate your own garden plot and then suggests what you should or should not plant.
